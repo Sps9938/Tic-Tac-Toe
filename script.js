@@ -47,7 +47,7 @@ function checkWinner() {
     }
 
     if (roundWon) {
-        statusText.textContent = `Player ${currentPlayer} has won!`;
+        statusText.textContent = `Player ${currentPlayer} won the match !`;
         gameActive = false;
         return;
     }
